@@ -1,0 +1,5 @@
+k = int(input("Credit amount: "))
+p = int(input("Interest rate: "))
+m = int(input("Number of months: "))
+a = k*0.01*p*(1+0.01*p)**m/((1+0.01*p)**m-1)
+print(a)

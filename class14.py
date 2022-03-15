@@ -1,0 +1,6 @@
+fig = int(input("Enter your number: ")) +1
+for i in range(1, fig):
+    print((' ' * (fig - i) + (i * '*')) + (i * '*'))
+for i in range(fig, 0, -1):
+    print((' ' * (fig - i) + i * '*') + (i * '*'))
+
